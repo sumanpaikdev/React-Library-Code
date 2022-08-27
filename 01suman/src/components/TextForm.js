@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import
+
 
 export default function (props) {
     const primaryButtonUPPERClick = () => {
@@ -12,22 +12,6 @@ export default function (props) {
         let newText = Text.toLowerCase();
         setText(newText);
     }
-
-
-
-
-
-    const textArea = document.getElementById('mytext');
-textArea.addEventListener('input', () => {
-    var textLn =  textArea.value;
-    document.getElementById('mytext').innerHTML='Total words: '+getWordCount(textLn);
-});
-
-function getWordCount(str) {
-     return str.trim().split(/\s+/).length;
-}
-
-
 
     const handleOnChange = (event) => {
         // console.log("onChange");
@@ -50,16 +34,12 @@ function getWordCount(str) {
             </div>
             <div className="container2 my-3">
                 <h2>Your text summary :</h2>
-                {/* <p>{Text.split(" ").length} Words AND {Text.length} Characters</p>
-            <p> Needs {0.008*Text.split(" ").length} Minutes to read.</p>
+                 <p>{Text.split(" ").length} Words AND {Text.length} Characters</p>
             <h2>Preview</h2>
-            <p>{Text}</p> */}
+            <p>{Text}</p> 
 
 
-                <p> Word Count:
-                    <span id="show">0</span>
-                </p>
-                
+             
                 
                 
             </div>
