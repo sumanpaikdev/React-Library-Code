@@ -2,6 +2,10 @@
 This is the whole react js repo.
 
 
+https://user-images.githubusercontent.com/93247057/187032929-299f795a-11f3-4cd4-b37b-38b802e7e80f.mp4
+
+
+
 01. npx create-react-app 01suman
 02. npm start
 03. exploring files : public/index.js-set bootstrap links(script & bootstrap)
