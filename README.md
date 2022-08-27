@@ -20,3 +20,5 @@ This is the whole react js repo.
                          }
 08. React Hooks {useState}   (How to set event & How to set Event)
 09. Logic to 01suman app     -- Text summary word count character count    [PROJECT 01 - Word Counter]
+
+https://github.com/sumanpaikcs/React-Starting-to-End-2022-Web-Development-Journey-/blob/master/2022-08-27%2019-03-20.mp4
