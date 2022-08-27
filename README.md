@@ -18,4 +18,5 @@ This is the whole react js repo.
              title: "set the title",
             abouttext: "about text here"
                          }
-08. 
+08. React Hooks {useState}   (How to set event & How to set Event)
+09. Logic to 01suman app     -- Text summary word count character count    [PROJECT 01 - Word Counter]
