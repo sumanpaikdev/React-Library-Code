@@ -54,6 +54,8 @@ function MyCustomComponent() {
 }
 
 const NavbarOne =(
+  <div>
+    <img src="./logo192.png" alt="" width="50px" />
   <nav>
     <ul>
       <li>Pricing</li>
@@ -61,6 +63,7 @@ const NavbarOne =(
       <li>Contact</li>
     </ul>
   </nav>
+  </div>
 )
 ReactDOM.render(
 
