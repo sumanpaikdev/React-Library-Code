@@ -1,0 +1,77 @@
+*{
+ box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* navbar css style  */
+
+.container{
+    background-color: rgb(37, 43, 71);
+    height: 600px;
+    width: 600px;
+    margin: 10vh auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 11px 2px rgb(187, 186, 186);
+}
+.navbar--container{
+    background-color: rgb(7, 18, 65);
+    display: flex;
+    padding: 15px 15px;
+    justify-content: space-between;
+    border-radius: 15px 15px 0px 0px;
+}
+.nav--left{
+    color: rgb(77, 234, 255);
+    font-size: 20px;
+    margin-right: auto;
+}
+.nav--right{
+    color: aliceblue;
+    font-size: 13px;
+    margin: auto 0px;
+}
+.nav--logo{
+    height: 37px;
+    margin: auto 5px;
+    vertical-align: center;
+}
+
+/* main css style  */
+
+.main--container{
+    color: white;
+    margin: 20px 10px;
+    padding: 20px 10px;
+
+}
+.main--heading{
+    font-size: 2.4rem;
+    padding-left: 14px;
+    padding-bottom: 20px;
+
+}
+.main--ul{
+     margin: 0;
+     margin-left: 20px;
+     padding-left: 29px;
+}
+.main--li{
+    max-width: 400px;
+    margin: 12px 0px;
+    list-style: none;
+}
+
+ul li::before{
+    
+    content: " \2022";
+    color: rgb(77, 234, 255);
+    font-weight: bolder;
+    display: inline-block; 
+    width: 20px;
+    margin-left: -1em;
+}
