@@ -1,10 +1,11 @@
-import react from "react"
-import profileLogo from "../images/profile-logo.jpg"
+// import react from "react"
+// import profileLogo from "../images/"
 
-export default function Header() {
+export default function Header(props) {
     return(
         <div className="header--container">
-            <img src={profileLogo} alt="" width="317px" height="280px"/>
+            <img src={props.img} alt="" />
+            {/* <img src={`../images/${props.img}`} alt="" /> */}
         </div>
     )
 }
