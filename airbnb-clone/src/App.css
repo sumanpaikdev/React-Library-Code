@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  box-sizing: border-box;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* react container styling */
+.react--container {
+  max-width: 550px;
+  background-color: rgba(255, 245, 240, 0.595);
+  margin: 5px auto;
+  box-shadow: 2px 2px 13px 1px rgba(58, 58, 58, 0.249);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* navbar styling */
+.navbar--container {
+  height: 70px;
+  box-shadow: 0px 15px 10px -15px rgba(17, 17, 17, 0.644);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid rgba(107, 107, 107, 0.447);
 }
 
-.App-link {
-  color: #61dafb;
+.navbar--logo {
+  height: 33px;
+  margin-left: 33px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* header styling  */
+.header--container {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 25px;
+  padding-bottom: 7px;
+
+}
+
+.header--logo {
+  height: 230px;
+  margin: auto;
+  align-self: center;
+
+
+}
+
+/* heading--container  sytling */
+.heading--container {
+  padding: 3px 35px;
+  /* border: 1px solid black; */
+}
+
+.heading--h1 {
+  font-size: 37px;
+}
+
+.heading--p {
+  max-width: 400px;
+  margin: 10px 0px 24px 7px;
+}
+
+
+/* card--main--container style  */
+.scrolling-wrapper{
+  display: flex;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-top: 15px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+/* ::-webkit-scrollbar{
+  display: none;
+} */
+.card--container{
+  margin: 1px 7px;
+  box-shadow: 2px 2px 13px 1px rgba(58, 58, 58, 0.452);
+  border-radius: 9px;
+}
+
+.card--logo {
+  height: 233px;
+  width: 176px;
+  /* border-radius: 9px; */
+  border-top-left-radius: 9px ;
+  border-top-right-radius: 9px;
+}
+.status--bar{
+  width: 60px;
+  height: 30px;
+  position: ;
+  top: 3px ;
+}
+.star--container {
+  padding: 5px;
+  display: block;
+  font-size: 14px;
+  padding-bottom: 10px;
+
+}
+
+.star--logo {
+  height: 14px;
+}
+
+.span-text {
+  color: gray;
+}
+
+.star--p {
+  font-size: 14px;
+  padding: 3px 2px 3px 5px;
+}
+
+.star--price {
+  font-size: 14px;
+  padding-left: 4px;
 }

@@ -1,24 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+
+// file link 
+
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Heading from './components/Heading';
+import Cards from './components/Cards';
+
+// images source 
+
+import airbndLogo from "./images/airbnblogo.png"
+import headerLogo from "./images/GroupHeader.png"
+import cardLogo1 from "./images/ganesh-ravikumar-P92MH8f-eNE-unsplash.jpg"
+import starlogo from "./images/Starlogo.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="react--container">
+      <div className="app--container">
+        <Navbar img={airbndLogo} />
+        <Header headerImage={headerLogo} />
+        <Heading />
+        {/* <Cards img={cardLogo1} star={starlogo} /> */}
+        <div class="scrolling-wrapper">
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        <Cards img={cardLogo1} star={starlogo} />
+        </div>
+      </div>
+
     </div>
+
   );
 }
 
