@@ -79,9 +79,13 @@ body {
   display: none;
 } */
 .card--container{
+  position: relative;
   margin: 1px 7px;
-  box-shadow: 2px 2px 13px 1px rgba(58, 58, 58, 0.452);
+  box-shadow: 2px 2px 13px 1px rgba(58, 58, 58, 0.329);
   border-radius: 9px;
+}
+.card--container:hover{
+  box-shadow: 2px 2px 13px 1px rgba(106, 106, 106, 0.263);
 }
 
 .card--logo {
@@ -91,12 +95,7 @@ body {
   border-top-left-radius: 9px ;
   border-top-right-radius: 9px;
 }
-.status--bar{
-  width: 60px;
-  height: 30px;
-  position: ;
-  top: 3px ;
-}
+
 .star--container {
   padding: 5px;
   display: block;
@@ -121,4 +120,18 @@ body {
 .star--price {
   font-size: 14px;
   padding-left: 4px;
+}
+.status--bar{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.888);
+  width: 87px;
+  height: 15px;
+  left: 9px;
+  top: 12px;
+  padding: 5px 0px;
+  font-size: 12px;
+  text-align: center ;
+  font-weight: bold;
+  color: rgba(30, 29, 29, 0.597);
+  border-radius: 4px;
 }
