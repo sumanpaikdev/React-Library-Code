@@ -5,12 +5,23 @@
 body {
   box-sizing: border-box;
 }
-
-.app--container {
-  border: 1px solid green;
+.react--app--container{
   width: 550px;
+  height: 705px;
   margin: 10px auto;
-  background-color: rgb(254, 247, 247);
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  box-shadow: 0px 1px 14px 0px rgba(128, 128, 128, 0.353);
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.nav--cont--bar{
+  position: sticky;
+  top: 0px;
+}
+.app--container {
 }
 
 /* navbar css style  */
@@ -40,14 +51,15 @@ body {
 }
 
 /* place js css styling */
+
 .place--container{
   width: 471px;
   height: 168px;
   border-radius: 9px;
   margin: 30px auto;
   display: flex;
-  background-color: rgba(250, 248, 245, 0.975);
-  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.4);
+  background-color: rgb(242, 236, 236);
+  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.466);
 }
 .left--container{
 
@@ -84,9 +96,7 @@ body {
   color: gray;
   margin-top: 3px;
 }
-.heading--part{
 
-}
 .mane--h1{
   font-size: 25px;
   color: rgb(53, 52, 52);
@@ -101,4 +111,6 @@ body {
 .content--part p{
   font-size: 10.24px;
   color: rgb(53, 52, 52);
+  margin-right: 7px;
 }
+
