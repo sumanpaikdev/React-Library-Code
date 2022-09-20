@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.app--container {
+  border: 1px solid green;
+  width: 550px;
+  margin: 10px auto;
+  background-color: rgb(254, 247, 247);
+}
+
+/* navbar css style  */
+.navbar--container {
+  align-items: center;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 83, 68);
+}
+
+.middle--container {
+  display: inline-block;
+  display: flex;
+}
+
+.nav--image {
+  height: 24px;
+  margin-right: 9px;
+  filter: invert(1);
+}
+.nav--p {
+  font-size: 14px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+/* place js css styling */
+.place--container{
+  width: 471px;
+  height: 168px;
+  border-radius: 9px;
+  margin: 30px auto;
+  display: flex;
+  background-color: rgba(250, 248, 245, 0.975);
+  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.4);
+}
+.left--container{
+
+}
+.left--image{
+  width: 126px;
+  height: 168px;
+  border-radius: 9px;
+}
+
+.right--container{
+ margin: 6px 17px;
+ margin-right: 0px;
+ padding-top: 9px;
+
+}
+.first--location{
+  display: flex;
+}
+
+.location--image{
+  height: 13px;
+  margin-top: 3px;
+}
+.city--name{
+  font-size: 13px;
+  color: rgb(66, 65, 65);
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+.map--link{
+  font-size: 10px;
+  margin-left: 14px;
+  color: gray;
+  margin-top: 3px;
+}
+.heading--part{
+
+}
+.mane--h1{
+  font-size: 25px;
+  color: rgb(53, 52, 52);
+  margin: 0px 0px 9px 1px;
+}
+.content--part h4{
+  font-size: 10.24px;
+  margin-bottom: 7px;
+  color: rgb(53, 52, 52);
+
+}
+.content--part p{
+  font-size: 10.24px;
+  color: rgb(53, 52, 52);
+}
