@@ -1,4 +1,4 @@
-# Travel Journal Project
+# Travel Journal -- Project
 
 https://user-images.githubusercontent.com/93247057/191172233-0a2bebaa-ed68-416e-951a-b394fe6feb83.mp4
 
