@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+}
+body{
+  box-sizing: border-box;
+}
+.app--container{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  background-color: rgb(14, 14, 14);
+}
+.main--container{
+  display: flex;
+  margin:auto ;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+}
+.middle--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.container--items--middle{
+  font-size: 4rem;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 20px;
+  
+}
+.left--container{
+  background-color: gray;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.right--container{
+  background-color: gray;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+.container--items--left{
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container--items--right{
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4px;
+  color: white;
+}
