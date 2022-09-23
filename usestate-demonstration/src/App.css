@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+
+}
+body{
+  box-sizing: border-box;
+}
+
+.app--container{
+  background-color: rgb(207, 207, 255);
+  max-width: 500px;
+  margin: 20px auto;
+  height: 500px;
+  border-radius: 7px;
+}
+
+.yesno--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+.state--container{
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+  border: 3px solid rgb(74, 74, 74);
+}
+.state--title{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
