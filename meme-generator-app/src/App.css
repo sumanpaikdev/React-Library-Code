@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app--container{
+  width: 450px;
+  height: 600px;
+  border-radius: 9px;
+  margin: 20px auto;
+  background-color: rgba(215, 215, 215, 0.588);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.403);
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 20px;
+  background-color: rgb(138, 191, 255);
+  box-shadow: 0px 5px 12px 1px rgba(128, 128, 128, 0.458);
+}
+.left--img
+{
+  height: 40px;
+  padding-top: 3px;
+}
+.right{
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(0, 22, 54);
+}
+
+.main--container{
+  margin: 50px 20px 18px 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input--type{
+  padding: 10px;
+  text-indent: 9px;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 6px;
+  background-color: rgb(213, 239, 255);
+  box-shadow: 0px 0px 8px 0px rgba(0, 58, 89, 0.166);
+}
+
+.input--type:focus{
+  outline: 3px solid rgb(0,136,255);
+}
+.meme--button{
+  padding:  15px 20px;
+  width: 300px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(0, 126, 252);
+  color: white;
+  font-weight: bold;
+  margin: 3px 18%;
+}
+.meme--button:hover{
+  background-color:rgba(0, 136, 255, 0.74) ;
+  color: rgb(196, 228, 255);
+}
+.meme--image--show{
+  width: 400px;
+  height: auto;
+  margin: 30px auto;
+  display: block;
+  
+}
