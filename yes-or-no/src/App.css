@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app--container {
+    background-color: rgb(31, 31, 31);
+    color: rgb(97, 178, 255);
+    width: 400px;
+    height: 400px;
+    border-radius: 9px;
+    margin: 90px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main--container {
+    margin: 20% auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main--container h2 {
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+.yes--no {
+    color: black;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.yes--no:hover {
+    background-color: rgb(221, 221, 221);
+}
