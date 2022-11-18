@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 30px;
+}
+.html{
+  scroll-behavior: smooth;
+}
+.app--container {
+  max-width: 100vh;
+  background-color: rgba(42, 42, 42, 0.514);
+  height: auto;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item--container {
+  background-color: rgb(255, 254, 254);
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.item--image{
+  border-radius: 9px;
+  height: 300px;
+  width: 280px;
+
+}
+.item--name{
+  margin-top: 12px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+}
