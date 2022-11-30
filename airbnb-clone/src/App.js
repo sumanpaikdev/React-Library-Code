@@ -34,7 +34,6 @@ function App() {
         <Heading />
         <div class="scrolling-wrapper">
           {cardsvar}
-
         </div>
       </div>
 
