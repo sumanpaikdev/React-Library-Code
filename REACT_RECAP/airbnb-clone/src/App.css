@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-container{
+  border: 2px solid red;
+  width: 500px;
+  height: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.card-section{
+  border: 2px solid rgb(30, 47, 5);
+  display: flex;
+  overflow-x: auto;
+  
+}

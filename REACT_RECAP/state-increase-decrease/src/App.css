@@ -1,0 +1,36 @@
+.App{
+  width: 450px;
+  height: 450px;
+  background-color: rgba(69, 69, 69, 0.315);
+  margin: 40px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  user-select: none;
+}
+.left, .right{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin:9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+  background-color: rgba(128, 128, 128, 0.689);
+}
+.left:hover, .right:hover{
+  background-color: gray;
+}
+.middle{
+  width: 120px;
+  height: 120px;
+  background-color: rgba(135, 207, 235, 0.72);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+
+}
