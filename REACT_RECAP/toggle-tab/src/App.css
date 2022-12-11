@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.app--container{
+  width: 450px;
+  height: auto;
+  padding: 12px;
+  background-color: rgb(42, 42, 42);
+  border-radius: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 21px auto;
+}
+.user--container{
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid gray; */
+  border-radius: 9px;
+  margin: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.user--container:hover{
+  transform: scale(1.05);
+}
