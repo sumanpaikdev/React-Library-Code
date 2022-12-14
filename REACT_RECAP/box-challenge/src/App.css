@@ -1,0 +1,19 @@
+.app-container{
+  width: 450px;
+  height: auto;
+  background-color: black;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 9px;
+}
+.box-container{
+  width: 90px;
+  height: 90px;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 9px;
+  margin: 3px;
+}

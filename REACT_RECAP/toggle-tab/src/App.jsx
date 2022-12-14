@@ -14,6 +14,28 @@ export default function App() {
 
   function toggle(id) {
     console.log(id);
+    setOnline(prevState => {
+      const newUserData = []
+      for(let i = 0; i<prevState.length; i++){
+        const currentUserData = prevState[i]
+        if(currentUserData.id === id){
+          const updateUserData = {
+            ...currentUserData,
+            state: !currentUserData.state,
+          }
+          newUserData.push(updateUserData)
+        }else{
+          newUserData.push(currentUserData)
+        }
+      }
+      return newUserData
+    })
+
+  }
+  return <div className="app--container">{userData}</div>;
+}
+
+/*
     setOnline((prevState) => {
       const newUserData = [];
       for (let i = 0; i < prevState.length; i++) {
@@ -30,6 +52,4 @@ export default function App() {
       }
       return newUserData
     });
-  }
-  return <div className="app--container">{userData}</div>;
-}
+*/
