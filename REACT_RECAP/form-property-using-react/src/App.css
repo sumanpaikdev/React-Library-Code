@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(46, 46, 46);
+}
+.App{
+  width: 450px;
+  height: auto;
+  padding: 12px;
+  margin: 21px auto;
+  border-radius: 9px;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  user-select: none;
+  
+}
+.forms{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* input{
+  margin: 6px;
+  width: 200px;
+  height: 33px;
+  padding: 3px 0px 3px 12px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  
+}
+textarea{
+  margin: 6px;
+
+}
+input:focus{
+  outline: 3px solid rgb(43, 43, 43);
+} */
