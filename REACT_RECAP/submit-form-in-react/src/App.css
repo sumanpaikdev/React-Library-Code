@@ -1,0 +1,142 @@
+.app-container{
+    max-width: 450px;
+    margin: 21px auto;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+    border-radius: 12px;
+    font-family: monospace;
+    font-size: 15px;
+    box-shadow: 0px 0px 12px 3px gray;
+    height: 680px;
+    position: relative;
+    user-select: none;
+
+}
+.react-form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 21px 40px 21px;
+}
+.input-text{
+    margin: 7px 0px;
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+.input-text:focus{
+    outline: 4px solid rgb(183, 0, 255);
+}
+.student{
+    display: flex;
+    align-items: center;
+    margin: 9px 0px;
+    padding: 6px;
+    color: white;
+}
+textarea{
+    margin: 9px 0px;
+    padding: 9px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+}
+textarea:focus{
+    outline: 4px solid rgb(183, 0, 255);
+}
+fieldset{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.clstat{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+.clstat>input{
+    margin: 0px 9px;
+}
+select{
+    margin: 9px;
+    padding: 6px 20px;
+    font-size: 16px;
+    border-radius: 9px;
+    outline: none;
+}
+select:focus{
+    outline: 4px solid rgb(183, 0, 255);
+}
+.chooseclass{
+    color: white;
+    margin: 18px 0px 0px 9px;
+}
+button{
+    width: 150px;
+    padding: 9px;
+    background-color: rgb(200, 35, 255);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-family: monospace;
+    box-shadow: 3px 3px 0px 0px white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transition: .2s;
+}
+button:hover{
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 0px 0px white;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+.terminal{
+    max-width: 420px;
+    box-sizing: border-box;
+    height: 200px;
+    background-color: rgb(212, 0, 255);
+    border-radius: 12px;
+    /* backdrop-filter: blur(9px); */
+    padding: 21px;
+    position: absolute;
+    top: 27%;
+    left: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: openWindow .3s;
+    
+}
+@keyframes openWindow {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  @-webkit-keyframes openWindow {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+.terminal > p{
+    font-size: 21px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.time{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+.time:hover{
+    color: black;
+}
