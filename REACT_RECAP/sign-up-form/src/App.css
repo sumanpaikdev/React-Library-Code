@@ -1,0 +1,94 @@
+.app-container{
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  padding: 40px 20px;
+  margin: 60px auto;
+  background-color: rgb(48, 48, 48);
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+img{
+  max-width: 100px;
+  margin: 12px auto;
+}
+.sign-form{
+  display: flex;
+  flex-direction: column;
+}
+.form-input{
+  padding: 12px;
+  margin: 9px 0px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+
+}
+.newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  color: white;
+  font-size: 15px;
+}
+.newsletter > input{
+  margin-right: 6px;
+}
+button{
+  padding: 12px;
+  margin: 6px 45px;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(163, 102, 255);
+  color: white;
+  box-shadow: 3px 3px 0px 0px white ;
+  transition: .2s;
+ 
+}
+button:hover{
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 0px 0px white;
+  border: none;
+
+}
+.terminal{
+  position: absolute;
+  width: 250px;
+  height: 180px;
+  background-color: rgb(163, 102, 255);
+  border-radius: 9px;
+  top: 30%;
+  left: 15%;
+  display: none;
+  animation: terminal .2s;
+}
+@keyframes terminal {
+  from{transform: scale(0);}
+  to{transform: scale(1);}
+}
+#para{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+#paraon{
+  margin-top: 12px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+.x{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
