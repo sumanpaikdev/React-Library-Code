@@ -1,0 +1,113 @@
+.app-container{
+    max-width: 450px;
+    margin: 33px auto;
+    font-family: monospace;
+    overflow: hidden;
+    user-select: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 12px;
+    background-color: rgb(255, 191, 0);
+    /* border-top-left-radius: 9px;
+    border-top-right-radius: 9px; */
+}
+.navbar > img{
+    max-width: 45px;
+    margin-right: 6px;
+}
+.meme-nav{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+}
+.main-container{
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 27px 6px 0px 6px;
+}
+input{
+    width: 170px;
+    padding: 9px;
+    margin: 7px 12px;
+    border: none;
+    outline: none;
+}
+input:focus{
+    outline: 4px solid rgb(255, 191, 0) ;
+}
+.button-container{
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.getmeme{
+    border: none;
+    background-color: rgb(255, 191, 0);
+    color: white;
+    text-shadow: 1px 1px 3px rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 9px 21px;
+    box-shadow: 3px 3px white;
+    transition: .2s;
+}
+.getmeme:hover{
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+.meme-body{
+    background-color: rgb(53, 52, 52);
+    padding: 12px 12px 20px 12px;
+    position: relative;
+    overflow: hidden;
+    /* border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; */
+}
+.meme-image{
+    max-width: 380px;
+    height: 300px;
+    border: 1px solid gray;
+    margin: 12px auto;
+    background-color: rgb(135, 135, 135);
+    overflow: hidden;
+}
+.upLine{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    max-width: 3000px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+.downLine{
+    font-size: 30px;
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+    max-width: 3000px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.meme-image > img{
+    max-width: 380px;
+    background: center center cover;
+}
