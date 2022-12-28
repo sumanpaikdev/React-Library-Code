@@ -1,0 +1,18 @@
+.app{
+  width: 450px;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  border-radius: 9px;
+}
+.user{
+  width: 90px;
+  height: 90px;
+  margin: 6px;
+  border-radius: 9px;
+  cursor: pointer;
+}

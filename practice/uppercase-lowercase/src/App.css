@@ -1,0 +1,39 @@
+.case-container{
+  max-width: 800px;
+  height: atuo;
+  margin: 30px auto;
+  padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#inputText{
+  width: 60vw;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 21px;
+  margin: 21px 0px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btnn{
+  padding: 12px 21px;
+  border: none;
+  margin: 6px;
+  box-shadow: 3px 3px black;
+  transition: .1s;
+  background-color: rgb(0, 255, 132); 
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btnn:active{
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px;
+}

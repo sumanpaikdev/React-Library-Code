@@ -1,0 +1,14 @@
+.App{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.online{
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  cursor: pointer;
+  margin: 6px;
+  border-radius: 6px;
+}

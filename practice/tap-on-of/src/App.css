@@ -1,0 +1,26 @@
+.component-container{
+  max-width: 450px;
+  height: auto;
+  border: 1px solid blue;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 9px;
+}
+.items{
+  width: 90px;
+  height: 90px;
+  background-color: gray;
+  margin: 6px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+}
