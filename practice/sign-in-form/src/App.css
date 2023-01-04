@@ -1,0 +1,55 @@
+.app-container{
+  width: 400px;
+  background-color: black;
+  padding: 33px;
+  margin: 30px auto;
+  color: wheat;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+.form-element{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin: 6px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.227);
+}
+::placeholder{
+  color: rgba(255, 255, 255, .6);
+
+}
+::-webkit-input-placeholder{
+  color: rgba(255, 255, 255, .6);
+}
+input:focus{
+  outline: 3px solid wheat;
+  color: white;
+}
+.news{
+  margin: 12px auto;
+  font-family: monospace;
+  font-size: 14px;
+}
+button{
+  padding: 12px;
+  width: 200px;
+  margin: 9px auto;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: wheat;
+  font-family: monospace;
+  cursor: pointer;
+  box-shadow: 0px 17px 10px -10px rgb(216, 216, 216);
+  transition: .3s;
+}
+button:hover{
+  box-shadow: 0px 37px 20px -20px rgb(255, 255, 255);
+  transform: translate(0px, -10px) scale(1.05);
+}
