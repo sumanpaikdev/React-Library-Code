@@ -17,7 +17,6 @@ export default function MemeGenerator(props) {
   }
 
   const [memeCollection, setmemeCollection] = React.useState([]);
-
   React.useEffect(() => {
     fetch("https://api.imgflip.com/get_memes")
       .then((res) => res.json())
@@ -27,6 +26,8 @@ export default function MemeGenerator(props) {
   function getNewMeme() {
     const randomNumber = Math.floor(Math.random() * memeCollection.length);
     const url = memeCollection[randomNumber].url;
+    console.log(memeCollection)
+    console.log(url)
     setUserData((prevmeme) => ({
       ...prevmeme,
       memePicture: url,
