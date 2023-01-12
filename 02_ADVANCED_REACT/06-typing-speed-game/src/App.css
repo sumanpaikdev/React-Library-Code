@@ -1,0 +1,70 @@
+.app-container{
+  max-width: 450px;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: rgb(2, 35, 5);
+  color: white;
+  border-radius: 15px;
+  margin: 33px auto;
+  box-sizing: border-box;
+}
+.game-heading{
+  padding: 21px;
+  text-align: center;
+}
+.game-text{
+  width: 290px;
+  height: 200px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.game-text:disabled{
+  background-color: silver;
+}
+.game-time-ramaining{
+  background-color: silver;
+  color: black;
+  padding: 12px;
+  border-radius: 6px;
+  width: 180px;
+  text-align: center;
+}
+.game-start-button{
+  width: 120px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  outline: 3px solid white;
+  transition: .2s;
+  cursor: pointer;
+}
+.game-start-button:active{
+  transform: scale(0.96);
+}
+.game-start-button:disabled{
+  cursor: not-allowed;
+  transform: none;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.game-word-count{
+  background-color: silver;
+  color: black;
+  padding: 12px;
+  border-radius: 6px;
+  width: 140px;
+  text-align: center;
+}

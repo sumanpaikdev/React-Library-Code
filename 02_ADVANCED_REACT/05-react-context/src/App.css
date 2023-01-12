@@ -1,0 +1,22 @@
+.app-container
+{
+  
+font-family: sans-serif;
+}
+
+:root{
+  --back-color: rgb(234, 234, 234);
+  --text-color: black;
+}
+.light-theme{
+  background-color: var(--back-color);
+  color: var(--text-color);
+  padding: 21px;
+  margin: 12px;
+}
+.dark-theme{
+  background-color: var(--text-color);
+  color: var(--back-color);
+  padding: 21px;
+  margin: 12px;
+}
