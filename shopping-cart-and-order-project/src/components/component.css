@@ -1,0 +1,43 @@
+.nature-picture{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  transition: .2s;
+}
+
+.nature-picture-container{
+    transition: .2s;
+    margin: 9px;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px 3px rgba(128, 128, 128, 0.671);
+    position: relative;
+
+}
+.nature-picture-container:hover{
+    /* transform: scale(0.96); */
+    box-shadow: 0px 0px 12px 3px rgba(128, 128, 128, 0.671);
+
+}
+@media only screen and (max-width: 320px){
+    .nature-picture{
+        width: 300px;
+        height: 300px;
+      } 
+}
+.nature-picture:hover{
+    transform: scale(1.2);
+}
+.favourite-logo{
+    width: 24px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    cursor: pointer;
+}
+.add-to-cart{
+    width: 24px;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    cursor: pointer;
+}

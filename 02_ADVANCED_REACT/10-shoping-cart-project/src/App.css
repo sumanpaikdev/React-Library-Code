@@ -1,0 +1,11 @@
+*{
+  user-select: none;
+  color: white;
+  font-family: sans-serif;
+}
+.app-container{
+  max-width: 900px;
+  margin: 0px auto;
+  background-color: rgb(41, 41, 41);
+  height: 100vh;
+}

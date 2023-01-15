@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(119, 29, 255);
+    width: 100%;
+    height: 80px;
+    padding-right: 21px;
+    padding: 15px;
+}
+.header-nature-title{
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    outline: 2px solid white;
+    padding: 6px;
+    transition: .2s;
+}
+.nature-link{
+    text-decoration: none;
+}
+.header-nature-title:active{
+    transform: scale(0.96);
+}
+.cart-logo{
+    width: 50px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    cursor: pointer;
+    padding: 9px;
+    transition: .1s;
+}
+.cart-logo:hover{
+    border-bottom: 3.5px solid rgb(0, 0, 0);
+}
